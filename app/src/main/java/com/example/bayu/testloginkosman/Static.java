@@ -6,7 +6,8 @@ package com.example.bayu.testloginkosman;
 
 public class Static {
     //URL to our login.php file, url bisa diganti sesuai dengan alamat server kita
-    public static final String LOGIN_URL = "http://192.168.31.130:3001/api/Owners/login";
+
+    public static final String LOGIN_URL = "http://192.168.100.9:3001/api/Owners/login";
     //Keys for email and password as defined in our $_POST['key'] in login.php
     public static final String KEY_EMAIL = "email";
     public static final String KEY_PASSWORD = "password";
